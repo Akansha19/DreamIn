@@ -1,0 +1,63 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:background="@drawable/h"
+    tools:context="com.example.lav.dreamm.Contact">
+
+    <!-- TODO: Update blank fragment layout -->
+  <ImageView
+      android:layout_marginLeft="30dp"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:background="@drawable/g"/>
+    <TextView
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:textColor="@color/colorPrimary"
+        android:textSize="16dp"
+        android:text="Heli Patel
+Mobile:9510299107"/>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/g"/>
+    <TextView
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="2"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="16dp"
+        android:text="Shivani Bharadia
+Mobile:9712472808"/>
+
+    <ImageView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/g"/>
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:textColor="@color/colorPrimary"
+
+        android:textSize="16dp"
+        android:text="Akansha Sharma
+Mobile:7878838110"/>
+
+
+</FrameLayout>

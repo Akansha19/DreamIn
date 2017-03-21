@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/h"
+    android:paddingTop="10dp"
+    tools:context="com.example.lav.dreamm.Register">
+
+    <EditText
+        android:id="@+id/reg_username"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your username"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/reg_password"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your password"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/reg_email"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your email"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:layout_gravity="center"/>
+    <Button
+        android:id="@+id/register"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:text="REGISTER HERE"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="16dp"/>
+    <TextView
+        android:id="@+id/reg_login"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:layout_height="40dp"
+        android:text="Click to login"
+        android:onClick="login"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>
